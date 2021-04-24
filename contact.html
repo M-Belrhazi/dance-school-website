@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+    <link rel="icon" href="Images/DSC1.png">   
+    <link rel="stylesheet" href="CSS/contact.css">
+    <title>DSC - contact</title>
+</head>
+<body>
+
+    <header>
+        <img src="Images/DSC1.png" alt="Logo DSC">
+        <h1>DSC Dance School</h1>
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="cours.html" target="_blank">Cours</a>
+            <a href="#foot">Nos centres</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Contactez-nous !</h1>
+        <!-- method concerne comment vont circuler les données -->
+        <!-- action = url de destination du formulaire -->
+        <div class="d1">
+
+            <form action="" method="">
+
+                <fieldset class=f1><!--c'est un contour, une zone-->
+
+                    <legend>INFORMATIONS PERSONNELLES</legend>
+                    <label for="prenom">Prénom</label>
+                    <input type="text" id="prenom" required>
+                    <label for="nom">Nom</label>
+                    <input type="text" id="nom" required>
+                    <label for="date">Date de naissance</label>
+                    <input type="date" id="date">
+    
+                    <fieldset>
+    
+                        <legend>Genre</legend>
+                        <label for="h">Homme</label>
+                        <input type="radio" id="h" name="genre">
+                        <label for="f">Femme</label>
+                        <input type="radio" id="f" name="genre">
+                        <label for="np">Non précisé</label>
+                        <input type="radio" id="np" name="genre">
+                        <label for="atr">Autre</label>
+                        <input type="radio" id="atr" name="genre">
+    
+                    </fieldset>
+    
+                    <label for="tel">Téléphone</label>
+                    <input type="tel" id="tel">
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="nom@blabla.fr" id="email" required>
+
+                </fieldset>
+        
+                <fieldset>
+                    <legend>Région</legend>
+                    <select name="" id="">
+                            <option value="Ile de France" selected>Ile de France</option>
+                            <!-- selected = selectionnée par défaut -->
+                            <option value="Auvergne Rhone Alpes">Auvergne Rhone Alpes</option>
+                            <option value="Centre Val de Loire">Centre Val de Loire</option>
+                        
+                    </select>
+                </fieldset>
+        
+                <fieldset>
+                    <legend>Que préférez-vous danser ?</legend>
+                    <label for="ct">Contemporain</label>
+                    <input type="checkbox" id="ct">
+                    <label for="hp">Hip Hop</label>
+                    <input type="checkbox" id="hp">
+                </fieldset>
+    
+                <fieldset>
+                    <legend>Transmettez-nous un fichier ! (si vous voulez)</legend>
+                    <input type="file">
+                </fieldset>
+    
+                <fieldset class="ten">
+                    <legend>Que voulez-vous nous dire ?</legend>
+                    <textarea name="" id="com" cols="30" rows="10"></textarea>
+                </fieldset>
+        
+                <input type="submit" value="Envoyer">
+                <input type="reset" value="Tout effacer">
+        
+            </form>
+        </div>
+
+    </main>
+
+    <footer id="foot">
+        <div class="ml">
+            <p>Pour lire les mentions légales, rendez-vous <a href="">ici.</a></p>
+            <p>Vous pouvez nous trouver ici !</p>
+        </div>
+
+        <div class=bigmap>        
+            <div class="d2">
+                <p class="hd">Ile de France</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d165156.48081114673!2d2.78042755!3d49.700069649999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1617881853498!5m2!1sfr!2sfr" width="100" height="100" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div class="d2">
+                <p class="hd">Centre Val de Loire</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d165156.48081114673!2d2.78042755!3d49.700069649999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1617881853498!5m2!1sfr!2sfr" width="100" height="100" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div class="d2">
+                <p class="hd">Auvergne Rhone Alpes</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d165156.48081114673!2d2.78042755!3d49.700069649999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1617881853498!5m2!1sfr!2sfr" width="100" height="100" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </footer>
+</body>

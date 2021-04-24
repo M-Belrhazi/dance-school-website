@@ -1,0 +1,162 @@
+body{
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+    margin: 0cm;
+}
+
+main{
+    margin: 2px;
+}
+
+h1{
+    color: white;
+}
+
+h2, p, td, th, li{
+    color: black;
+}
+
+header img{
+    width: 12%;
+}
+header{
+    text-align: center;
+    background-color: black;
+}
+
+li{
+    font-weight: bold;
+}
+
+.col{
+    width: 45%;
+    text-align: center;
+}
+
+.col p{
+    text-align: justify;
+}
+
+table{
+    width: 75%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th,td{
+    border: 1px solid black;
+    text-align: center;
+}
+
+.vert{
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    transform: rotateY(45);
+}
+
+.blankcell{
+    border: none;
+}
+
+span{
+    font-size: smaller;
+}
+
+main{
+    background-color: white;
+    margin: 0px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+nav{
+    background-color:rgba(243, 214, 49, 0.897);
+}
+nav, footer p{
+    text-align: center;
+}
+
+nav a {
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: small;
+    font-weight: bold;
+    color: black;
+}
+
+h1{
+    text-align: center;
+    font-family: Dela Gothic One, sans-serif;
+    font-size: large;
+}
+
+ol{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.vide{
+    background-color: rgb(236, 231, 231);
+}
+
+.tt{
+    background-color: rgba(243, 214, 49, 0.897);
+}
+
+.C1{
+    background-color: rgb(250, 68, 68);
+}
+
+.C2{
+    background-color: rgb(252, 110, 110);
+}
+
+.C3{
+    background-color: royalblue;
+}
+
+.C4{
+    background-color: rgb(119, 148, 235);
+}
+
+footer p{
+    margin-left: 4px ;
+    font-size: smaller;
+    color: white;
+}
+
+footer{
+    background-color: rgb(87, 85, 85);
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    padding-bottom: 4px;
+}
+
+footer a{
+    color: rgb(102, 102, 255);
+}
+
+.d2{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.bigmap{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.ml{
+    text-align: center;
+}
+
+.hd{
+    width: 100px;
+}
+
+.col img{
+    width: 40%;
+}
