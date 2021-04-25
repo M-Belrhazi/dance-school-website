@@ -13,11 +13,12 @@ h1, h2, p {
     color: white;
 }
 
-header img{
-    width: 12%;
-}
 header{
     text-align: center;
+}
+
+header img{
+    width: 12%;
 }
 
 nav{

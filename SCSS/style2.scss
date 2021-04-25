@@ -1,0 +1,146 @@
+body{
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+    margin: 0cm;
+}
+
+header{
+    display: flex;
+    background-color: black;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .logo{
+        width: 12%;
+    }
+    h1{
+        font-family: Dela Gothic One, sans-serif;
+        font-size: large;
+        color: white;
+    }
+    nav{
+        background-color: rgb(240, 206, 14);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        a{
+            color: rgb(0, 0, 0);
+            width: 15%;
+            font-family: Dela Gothic One, sans-serif;
+            text-align: center;
+            font-size: small;
+            font-weight: bolder;
+            text-decoration: none;
+            padding: 3px;
+            &:hover{
+                background-color: black;
+                color: rgb(240, 206, 14);
+            }
+        }
+    }
+}
+
+main{
+    margin: 2px;
+    background-color: white;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    ol{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        .col{
+            img{
+                width: 40%;
+            }
+            width: 45%;
+            text-align: center;
+            p{
+                text-align: justify;
+            }
+            li{
+                font-weight: bold;
+            }
+        }
+    }
+    table{
+        width: 75%;
+        border: 1px solid black;
+        border-collapse: collapse;
+        th,td{
+            border: 1px solid black;
+            text-align: center;
+            span{
+                font-size: smaller;
+            }
+            .vide{
+                background-color: rgb(236, 231, 231);
+            }
+            .C1{
+                background-color: rgb(250, 68, 68);
+            }
+            
+            .C2{
+                background-color: rgb(252, 110, 110);
+            }
+            
+            .C3{
+                background-color: royalblue;
+            }
+            
+            .C4{
+                background-color: rgb(119, 148, 235);
+            }
+        }
+        .tt{
+            background-color: rgba(243, 214, 49, 0.897);
+            .vert{
+                writing-mode: vertical-rl;
+                text-orientation: mixed;
+                transform: rotateY(45);
+            }
+        }
+        .blankcell{
+            border: none;
+        }
+    }
+}
+
+h2, p, td, th, li{
+    color: black;
+}
+
+footer{
+    background-color: rgb(87, 85, 85);
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    padding-bottom: 4px;
+    p{
+        margin-left: 4px ;
+        font-size: smaller;
+        color: white;
+        text-align: center;
+    }
+    .ml{
+        text-align: center;
+    }
+    .bigmap{
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        .d2{
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        .hd{
+            width: 100px;
+        }
+        
+    }
+    a{
+        color: rgb(102, 102, 255);
+    }
+}
+

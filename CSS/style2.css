@@ -1,0 +1,143 @@
+body {
+  background-color: white;
+  font-family: "Roboto", sans-serif;
+  margin: 0cm;
+}
+
+header {
+  display: flex;
+  background-color: black;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header .logo {
+  width: 12%;
+}
+header h1 {
+  font-family: Dela Gothic One, sans-serif;
+  font-size: large;
+  color: white;
+}
+header nav {
+  background-color: #f0ce0e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+header nav a {
+  color: black;
+  width: 15%;
+  font-family: Dela Gothic One, sans-serif;
+  text-align: center;
+  font-size: small;
+  font-weight: bolder;
+  text-decoration: none;
+  padding: 3px;
+}
+header nav a:hover {
+  background-color: black;
+  color: #f0ce0e;
+}
+
+main {
+  margin: 2px;
+  background-color: white;
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
+main ol {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+main ol .col {
+  width: 45%;
+  text-align: center;
+}
+main ol .col img {
+  width: 40%;
+}
+main ol .col p {
+  text-align: justify;
+}
+main ol .col li {
+  font-weight: bold;
+}
+main table {
+  width: 75%;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+main table th, main table td {
+  border: 1px solid black;
+  text-align: center;
+}
+main table th span, main table td span {
+  font-size: smaller;
+}
+main table th .vide, main table td .vide {
+  background-color: #ece7e7;
+}
+main table th .C1, main table td .C1 {
+  background-color: #fa4444;
+}
+main table th .C2, main table td .C2 {
+  background-color: #fc6e6e;
+}
+main table th .C3, main table td .C3 {
+  background-color: royalblue;
+}
+main table th .C4, main table td .C4 {
+  background-color: #7794eb;
+}
+main table .tt {
+  background-color: rgba(243, 214, 49, 0.897);
+}
+main table .tt .vert {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  transform: rotateY(45);
+}
+main table .blankcell {
+  border: none;
+}
+
+h2, p, td, th, li {
+  color: black;
+}
+
+footer {
+  background-color: #575555;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 4px;
+}
+footer p {
+  margin-left: 4px;
+  font-size: smaller;
+  color: white;
+  text-align: center;
+}
+footer .ml {
+  text-align: center;
+}
+footer .bigmap {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+footer .bigmap .d2 {
+  display: flex;
+  flex-direction: column-reverse;
+}
+footer .bigmap .hd {
+  width: 100px;
+}
+footer a {
+  color: #6666ff;
+}
+
+/*# sourceMappingURL=style2.css.map */
