@@ -10,37 +10,49 @@ h1, h2, p, h3 {
 
 h2{
     padding: 3px;
+    font-family: Dela Gothic One, sans-serif;
 }
 
 header{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    .logo{
+    //position: fixed;
+    //flex-direction: column;
+    //justify-content: center;
+    //align-items: center;
+    .alogo{
         width: 12%;
+        #logo{
+            width: 100%;
+        }
     }
-    h1{
-        font-family: Dela Gothic One, sans-serif;
-        font-size: large;
-    }
-    nav{
-        background-color: rgb(240, 206, 14);
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    .up{
         width: 100%;
-        a{
-            color: rgb(0, 0, 0);
-            width: 15%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        //align-items: center;
+        h1{
             font-family: Dela Gothic One, sans-serif;
-            text-align: center;
-            font-size: small;
-            text-decoration: none;
-            padding: 3px;
-            &:hover{
-                background-color: black;
-                color: rgb(240, 206, 14);
+            font-size: large;
+        }
+        nav{
+            background-color: rgb(240, 206, 14);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            a{
+                color: rgb(0, 0, 0);
+                width: 15%;
+                font-family: Dela Gothic One, sans-serif;
+                text-align: center;
+                font-size: small;
+                text-decoration: none;
+                padding: 3px;
+                &:hover{
+                    background-color: black;
+                    color: rgb(240, 206, 14);
+                }
             }
         }
     }
