@@ -1,7 +1,11 @@
 body{
     background-color: black;
     font-family: "Roboto", sans-serif;
-    margin: 0cm;
+    margin: 0em 1em 0em 0em;
+}
+
+main{
+    margin: 1em 2em;
 }
 
 h1, h2, p, h3 {
@@ -37,6 +41,8 @@ header{
         }
         nav{
             background-color: rgb(240, 206, 14);
+            border: solid 0px;
+            border-radius: 5px;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -59,20 +65,19 @@ header{
 }
 
 main{
-    margin: 0px 0px 10px 0px;
     .presentation{
         text-align: center;
         font-style: italic;
     }
     .dance-ctp{
         display: flex;
-        border: 4px solid gold;
+        //border: 4px solid gold;
         border-left: none;
         border-right: none;
         width: 100%;
         justify-content:space-between;
         .image{
-            width: 50%;
+            width: 40%;
         }
     
     }
@@ -96,6 +101,8 @@ main{
     #ctp1, #hp1{
         width: 100%;
         height: 100%;
+        border: solid 0px;
+        border-radius: 15px;
     }
     
     a{

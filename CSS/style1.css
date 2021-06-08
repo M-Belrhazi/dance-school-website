@@ -2,7 +2,11 @@
 body {
   background-color: black;
   font-family: "Roboto", sans-serif;
-  margin: 0cm;
+  margin: 0em 1em 0em 0em;
+}
+
+main {
+  margin: 1em 2em;
 }
 
 h1, h2, p, h3 {
@@ -35,6 +39,8 @@ header .up h1 {
 }
 header .up nav {
   background-color: #f0ce0e;
+  border: solid 0px;
+  border-radius: 5px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -54,23 +60,19 @@ header .up nav a:hover {
   color: #f0ce0e;
 }
 
-main {
-  margin: 0px 0px 10px 0px;
-}
 main .presentation {
   text-align: center;
   font-style: italic;
 }
 main .dance-ctp {
   display: flex;
-  border: 4px solid gold;
   border-left: none;
   border-right: none;
   width: 100%;
   justify-content: space-between;
 }
 main .dance-ctp .image {
-  width: 50%;
+  width: 40%;
 }
 main .dance-hp {
   display: flex;
@@ -91,6 +93,8 @@ main .block {
 main #ctp1, main #hp1 {
   width: 100%;
   height: 100%;
+  border: solid 0px;
+  border-radius: 15px;
 }
 main a {
   color: #6666ff;
